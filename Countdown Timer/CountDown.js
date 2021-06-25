@@ -1,0 +1,35 @@
+
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="10";
+    },0);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="9";
+    },1000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="8";
+    },2000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="7";
+    },3000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="6";
+    },4000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="5";
+    },5000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="4";
+    },6000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="3";
+    },7000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="2";
+    },8000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="1";
+    },9000);
+    setTimeout(function(){
+        document.getElementById("TimeDisplay").innerHTML="0";
+        window.alert("Time UP!")
+    },10000);

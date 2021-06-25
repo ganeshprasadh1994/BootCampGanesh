@@ -1,0 +1,22 @@
+body{
+    background-color: hotpink;
+}
+h1{
+    display: block;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#TimeDisplay{
+    display: block;
+    color: blue;
+    font-size: 200px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    left:50%;
+    top:50%;
+    position: inherit;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>TIC TAC TOE GAME</title>
+        <script src="TTT.js"></script>
+        <link rel="stylesheet" href="TTT.css">
+    </head>
+    <body>
+        <h1 id="head1">TIC TAC TOE GAME</h1>
+        <p id="intro"> FIRST PERSON WILL START PLAYING WITH 'X' <br/> AND <br/> SECOND PERSON WILL PLAY WITH 'O'</p>
+        
+            <div id="squares">
+                <input type="text" id="b1" onclick="buttonClick1(); handleClick()" readonly> 
+                <input type="text" id="b2" onclick="buttonClick2(); handleClick()" readonly> 
+                <input type="text" id="b3" onclick="buttonClick3(); handleClick()" readonly> 
+                <br/>
+             
+                 <input type="text" id="b4" onclick="buttonClick4(); handleClick()" readonly> 
+                 <input type="text" id="b5" onclick="buttonClick5(); handleClick()" readonly> 
+                 <input type="text" id="b6" onclick="buttonClick6(); handleClick()" readonly> 
+                 <br/>
+             
+                 <input type="text" id="b7" onclick="buttonClick7(); handleClick()" readonly> 
+                 <input type="text" id="b8" onclick="buttonClick8(); handleClick()" readonly> 
+                 <input type="text" id="b9" onclick="buttonClick9(); handleClick()" readonly> 
+             
+            </div>
+        <br/>   
+        <button class="reset" onclick="resetButton()">Reset</button>
+        <div id="status">
+            <p id="result"></p>
+        </div>
+    </body>
+</html>
