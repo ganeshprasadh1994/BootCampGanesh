@@ -12,6 +12,7 @@ body{
 #heading{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
+    color:deeppink;
 }
 .customerdetails{
     text-align: left;
@@ -49,6 +50,12 @@ body{
     width: 200px;
     height:20px
 }
+.custdetails label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+}
 .custdetails p{
     margin-left: -100px;
 }
@@ -67,7 +74,7 @@ body{
 .custrating{
     width: 500px;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 100px; 
     padding-top: 30px;
     text-align: center;
@@ -87,6 +94,7 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid black;
+    table-layout: auto; 
 }
 .custsatisfaction th{
     font-size: 20px;
@@ -102,6 +110,8 @@ body{
 }
 .custsatisfaction td:nth-child(1){
     font-style: italic;
+    width: 100px;   
+    height: 50px;
 }
 .custsatisfaction td:nth-child(n-1){
     border-right-style: groove;
@@ -116,6 +126,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     padding-bottom: 20px;
+    color: yellow;
 }
 #customercomments{
     width: 700px;
@@ -127,4 +138,5 @@ body{
     width: 80px;
     height: 30px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
