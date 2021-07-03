@@ -3,24 +3,29 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* RESUME */
 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
+    color:darkblue; 
 }
+/* NAME AND CONTACT DETAILS*/
 #title1{
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     
 }
+/*Headings */
 #title2{
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     background-color: beige;
 }
+/* Intro and Photo*/
 .intro{
     float: left;
     width: 50%;
@@ -41,6 +46,7 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+/*Education Qualification */
 table{
     border: 1px solid;
     border-collapse: collapse;    
@@ -61,9 +67,9 @@ td{
     border-color: black;
     font-size: 20px;
 }
+/*Skills */
 #skills{
     font-family: 'Courier New', Courier, monospace;
-    border: 1px solid;
     font-size: 20px;
     list-style-type:lower-greek;
     margin-right: 1200px;
@@ -74,15 +80,22 @@ li{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+/*achievements*/
+#achievements{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    list-style-type:square;
+}
 #PersDetails{
     font-family: 'Courier New', Courier, monospace;
-    border: 1px dashed;
+    color:black;
     font-size: 20px;
     list-style-type: none;
     padding-left: 0px;
     margin-right: 1000px;
 }
-
+/* Acknowledgement and Name */
 #ack{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -93,4 +106,5 @@ li{
     text-align: left;
     font-family: cursive;
     font-size: 20px;
+    color:navy;
 }
