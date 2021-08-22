@@ -1,0 +1,9 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.listitem{
+    color: rgb(147, 34, 192);
+    font-weight: bold;
+    padding-left: 20px;
+    margin: 10px;
+}
